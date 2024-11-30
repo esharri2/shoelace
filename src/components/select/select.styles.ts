@@ -176,7 +176,7 @@ export default css`
     margin-inline-end: var(--sl-input-spacing-small);
   }
 
-  .select--small.select--multiple .select__prefix::slotted(*) {
+  .select--small.select--multiple:not(.select--placeholder-visible) .select__prefix::slotted(*) {
     margin-inline-start: var(--sl-input-spacing-small);
   }
 
@@ -205,7 +205,7 @@ export default css`
     margin-inline-end: var(--sl-input-spacing-medium);
   }
 
-  .select--medium.select--multiple .select__prefix::slotted(*) {
+  .select--medium.select--multiple:not(.select--placeholder-visible) .select__prefix::slotted(*) {
     margin-inline-start: var(--sl-input-spacing-medium);
   }
 
@@ -234,7 +234,7 @@ export default css`
     margin-inline-end: var(--sl-input-spacing-large);
   }
 
-  .select--large.select--multiple .select__prefix::slotted(*) {
+  .select--large.select--multiple:not(.select--placeholder-visible) .select__prefix::slotted(*) {
     margin-inline-start: var(--sl-input-spacing-large);
   }
 
